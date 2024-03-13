@@ -5,7 +5,22 @@
             <ui:VisualElement class="background" style="width: 192px; height: 61px;">
                 <ui:VisualElement name="ScoreHolder" style="flex-direction: row; justify-content: space-between; width: auto; align-items: center; margin-left: 16px; margin-right: 16px; margin-top: 16px; margin-bottom: 16px;">
                     <ui:Label text="Score:" display-tooltip-when-elided="true" name="ScoreDisplay" style="flex-grow: 1; font-size: 30px; -unity-text-align: middle-left;" />
-                    <ui:Label text="0" display-tooltip-when-elided="true" name="ScoreText" style="flex-grow: 1; flex-direction: row-reverse; justify-content: flex-end; align-items: auto; -unity-text-align: middle-right; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 30px;" />
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="Score1Text" style="flex-grow: 1; flex-direction: row-reverse; justify-content: flex-end; align-items: auto; -unity-text-align: middle-right; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 30px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ScoreHolder" style="flex-grow: 1; height: auto; flex-direction: row; justify-content: flex-end; align-items: flex-start; padding-top: 20px; padding-right: 20px; padding-left: 20px; padding-bottom: 20px; position: absolute;">
+            <ui:VisualElement class="background" style="width: 192px; height: 61px;">
+                <ui:VisualElement name="ScoreHolder" style="flex-direction: row; justify-content: space-between; width: auto; align-items: center; margin-left: 16px; margin-right: 16px; margin-top: 16px; margin-bottom: 16px;">
+                    <ui:Label text="Score:" display-tooltip-when-elided="true" name="ScoreDisplay" style="flex-grow: 1; font-size: 30px; -unity-text-align: middle-left;" />
+                    <ui:Label text="0" display-tooltip-when-elided="true" name="Score2Text" style="flex-grow: 1; flex-direction: row-reverse; justify-content: flex-end; align-items: auto; -unity-text-align: middle-right; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 30px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="JoinCodeHolder" style="flex-grow: 1; height: auto; flex-direction: row; justify-content: flex-end; align-items: flex-start; padding-top: 20px; padding-right: 20px; padding-left: 20px; padding-bottom: 20px; position: absolute; top: 0; align-self: center;">
+            <ui:VisualElement class="background" style="width: 192px; height: 61px;">
+                <ui:VisualElement style="flex-direction: row; justify-content: space-between; width: auto; align-items: center; margin-left: 16px; margin-right: 16px; margin-top: 16px; margin-bottom: 16px;">
+                    <ui:Label text="JoinCode" display-tooltip-when-elided="true" name="JoinCodeText" enable-rich-text="false" style="flex-grow: 1; flex-direction: row-reverse; justify-content: flex-end; align-items: auto; -unity-text-align: middle-right; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 30px;" />
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
